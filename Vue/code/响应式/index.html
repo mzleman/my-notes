@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box1"><p>123</p>haha</div>
+    <script>
+        let box = document.getElementById('box1');
+        // console.log(box.getAttribute('text'));
+        // box.textContent = 123;
+        // console.log(typeof box.innerText);
+        // box.textContent = '<p>321</p>'
+        box.innerHTML = '<p>321</p>';
+    </script>
+    <script src="./observer.js"></script>
+</body>
+</html>
